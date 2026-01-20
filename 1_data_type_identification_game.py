@@ -1,4 +1,5 @@
-name = str(input("     -----::----- Welcome to data type identification game -----::-----      \n\nPlease Enter your name: ")).title()
+print("*"*320)
+name = str(input("                                         -----::----- Welcome to data type identification game -----::-----      \n\nPlease Enter your name: ")).title()
 value = 121
 print(f"\nWhat is the data type of {value} ?")
 guess = input("\nEnter your answer: ")
@@ -23,5 +24,5 @@ value = '"True"'
 print(f"\nWhat is the data type of {value} ?")
 guess = input("\nEnter your answer: ")
 print(f"You guessed {guess} .\nThe correct answer is String.")
-
-print(f"\n\n<--------------------- Thank you for playing the game, {name} --------------------->\n")
+print("*"*320)
+print(f"\n\n                                        <--------------------- Thank you for playing the game, {name} --------------------->\n")
